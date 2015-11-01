@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true; do
+#	for corkscrew configuration: ProxyCommand /usr/bin/corkscrew proxy.com 3128 server.com 22
+#	ssh -L 127.0.0.1:3128:127.0.0.1:8888 -N -n -F ~/.ssh/config user@server.com
+	ssh -L 127.0.0.1:3128:127.0.0.1:8888 -N -n user@server.com
+done
