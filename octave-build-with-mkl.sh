@@ -13,7 +13,7 @@ else
 	HDF5_FLAGS=""
 fi
 
-./configure ${HDF5_FLAGS} # \
+./configure ${HDF5_FLAGS} \
 	--with-lapack="${INTEL_GF_FLAGS}" \
 	--with-fftw3f="${INTEL_GF_FLAGS}" \
 	 --with-fftw3="${INTEL_GF_FLAGS}" \
